@@ -2,7 +2,7 @@
 
 A lightweight, low-level Win32/C utility that analyzes and "grades" your Windows environment to detect the presence of the Wine emulation layer. 
 
-By running 14 distinct low-level checks—including direct PEB traversal, manual export table walking, and timing heuristics—this software generates a definitive "compatibility score" to determine if your application is running on native Windows or Wine.
+By running 14 distinct low-level checks, including direct PEB traversal, manual export table walking, and timing heuristics, this software generates a definitive "compatibility score" to determine if your application is running on native Windows or Wine.
 
 ## How to Compile
 
