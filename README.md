@@ -4,12 +4,9 @@ A lightweight, low-level Win32/C utility that analyzes and "grades" your Windows
 
 By running 14 distinct low-level checks, including direct PEB traversal, manual export table walking, and timing heuristics, this software generates a definitive "compatibility score" to determine if your application is running on native Windows or Wine.
 
-## How to Compile
+## How To Compile:
 
 You can easily compile WineScore either natively on Windows or cross-compile it from Linux/macOS. 
-
-### 🚀 Quick Compile (Using Scripts)
-
 We've included automated scripts to handle compilation for you:
 
 * **On Windows (using GCC/MinGW):**
